@@ -20,7 +20,7 @@ h1 {
 
 .center {
     display: block;
-    margin: 0 auto;
+    margin: auto auto;
     width: 1200px;
 }
 
