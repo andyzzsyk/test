@@ -28,13 +28,11 @@ h1 {
     width: 1200px;
     height: auto;
     margin: 0 auto;
+
 }
 
     .tabs .tab-header {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        padding: 19px 0;
+        padding: 20px;
         background-color: #808080;
     }
 
@@ -45,14 +43,15 @@ h1 {
             .tabs .tab-header li a {
                 color: #000;
                 text-decoration: none;
-                font-size: 30px;
+                font-size: 35px;
                 font-family: raleway;
-                font-weight: auto;
+                font-weight: bold;
                 text-transform: uppercase;
-                padding: 20px 143.4px;
+                padding: 15px 120px;
+                margin: auto 6px;
             }
 
-                .tabs .tab-header li a.active {
+              .tabs .tab-header li a.active {
                     background: #ffd800;
 
                 }
